@@ -1,12 +1,70 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bed, Bath and Beyond</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #003057;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #003057;
+        }
+        nav ul li a:hover {
+            color: #ff8c00;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Company Website</h1>
-    <p>This is a test website.</p>
-    <p>Great if you are seeing this page.</p>
+    <header>
+        <h1>Welcome to Bed, Bath and Beyond</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Featured Products</h2>
+        <div>
+            <img src="bed.jpg" alt="Bed">
+            <img src="bath.jpg" alt="Bath">
+            <img src="beyond.jpg" alt="Beyond">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Bed, Bath and Beyond. All rights reserved.</p>
+    </footer>
 </body>
 </html>
